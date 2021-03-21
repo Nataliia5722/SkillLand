@@ -1,0 +1,47 @@
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    font-size: 16px;
+    color: $white;
+    font-weight: 600;
+    text-decoration: none;
+
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+
+    transition: background-color .1s linear, color .2s linear, box-shadow .2s linear;
+    &--blue {
+        background-color: $blue;
+        box-shadow: 0 7px 17px -10px rgba($blue, .3);
+
+        &:hover,
+        &:focus {
+            background-color: darken($blue, 5%);
+        }
+    }
+
+    &--rounded {
+        border-radius: 0.41em;
+    }
+
+    &--sm {
+        padding: 0.7em 1.25em;
+    }
+
+
+}
+
+.btn--study{
+    background-color: #6344e6;
+}
+
+
+.btn--study:hover{
+    background-color: #3712d1;
+    /*Тень (сдвиг по х, сдвиг по у, размытие) и fade для прозрачности цвета */
+    box-shadow: 2px 2px 10px rgba($black, 30%);
+}
+

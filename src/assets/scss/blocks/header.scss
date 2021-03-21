@@ -1,0 +1,22 @@
+
+
+.header{
+    padding: 1.2rem 0;
+    z-index: 1000;
+    //background-color: #4e00ff;
+
+    @include breakpoint($tablet-bp){
+        display: none;
+
+        .show-nav &{
+            display: block;
+        }
+
+    }
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

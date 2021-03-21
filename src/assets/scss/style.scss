@@ -1,0 +1,62 @@
+
+@import "vars";
+@import "mixins";
+@import "vendor/reset";
+
+html{
+    font-size: 15px;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: $black;
+
+    background-color: #ebebeb;
+
+    &.no-scroll,
+    &.show-sidebar{
+        overflow: hidden;
+    }
+}
+
+html, body{
+    height: 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Block*/
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/burger";
+@import "blocks/intro";
+@import "blocks/preferences";
+@import "blocks/partners";
+@import "blocks/motivation";
+@import "blocks/recommendations";
+@import "blocks/footer";
+@import "blocks/contacts";
+@import "blocks/signin";
+@import "blocks/btn";
+@import "blocks/modal";
+@import "blocks/form";
+

@@ -1,0 +1,24 @@
+
+.footer{
+  /*   padding: 15px;
+    display: flex;
+*/
+    background-color: $violet;
+
+margin-top: auto;
+
+
+     z-index: 1000;
+}
+
+.footer__text{
+    position: relative;
+    left: 400px;
+    top: -50px;
+
+}
+
+.footer_logo{
+
+    padding: 15px;
+}

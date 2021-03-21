@@ -1,0 +1,40 @@
+
+
+.logo{
+    display: flex;
+}
+
+.logo__image{
+    max-width: 90px;
+    max-height: 90px;
+    padding: 2px;
+    //height: 57px;
+   // margin: 5px;
+    align-items: center;
+   // background-image: url(../../images/braindata.png);
+     border-radius: 15%;
+    background-color: #5628a0;
+    /*img{
+        border-radius: 50%;
+    }*/
+
+}
+
+.logo__content{
+    padding-left: 9px;
+}
+
+.logo__name{
+    margin-bottom: 3px;
+    font-style: 1.06rem;
+    line-height: 1.2;
+    color: $black;
+    font-weight: 700;
+}
+
+
+.logo__desc{
+    font-style: 0.8rem;
+    color: rgba(#2B2A2C, 70%);
+}
+

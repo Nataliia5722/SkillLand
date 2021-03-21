@@ -1,0 +1,45 @@
+
+
+.preferences{
+    margin-top: 60px;
+    text-align: center;
+    border-bottom: 1px solid rgba($black, 30% );
+}
+
+.preferences__text{
+    font-size: 2.25rem;
+    color: $black;
+    font-weight: 700;
+    margin-bottom: 150px;
+}
+
+.preferences__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reason{
+    flex: 1 1 150px;
+    //margin-top: 150px;
+    margin-bottom: 150px;
+   // margin: 5px 5px 30px 30px;
+
+
+}
+
+
+.reason__img{
+    display: block;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
