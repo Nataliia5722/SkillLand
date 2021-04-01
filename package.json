@@ -3,9 +3,11 @@
     "version": "1.0.0",
     "description": "skilland",
     "author": "skilland",
+    "main": "gulpfile.js",
     "scripts": {
-   "start": "node gulpfile.js"
-},
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "gulp && node gulpfile.js"
+    },
     "devDependencies": {
         "@babel/core": "^7.13.1",
         "@babel/preset-env": "^7.13.5",
@@ -34,8 +36,5 @@
         "last 1 version",
         "> 1%",
         "IE 10"
-    ],
-    "dependencies": {
-        "mongoose": "^5.12.1"
-    }
+    ]
 }

@@ -52,6 +52,13 @@ const path = {
 
 /* Tasks */
 
+gulp.src("build")
+    .pipe(webserver({
+        livereload: true,
+        fallback: "index.html",
+        open: true
+    }));
+
 function serve() {
     browserSync.init({
         server: {
